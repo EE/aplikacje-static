@@ -27,7 +27,3 @@ Struktura katalogów wymaga Jekyll  3.x Przed wygenerowaniem strony wskazane jes
 gem update jekyll
 ```
 
-TO REPOZYTORIUM JEST KOPIĄ Z GITHUBA
-w sprawie historii zmian patrz :
-
-https://github.com/ivvan6666/aplikacje-static
