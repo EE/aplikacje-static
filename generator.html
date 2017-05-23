@@ -1,0 +1,91 @@
+---
+layout: default
+---
+ {% include generator-header.html %}
+<div class="container">
+    <div class="assets-title-main">
+        <div class="assets-title">
+            <h2>Wybierz pełnione stanowisko</h2></div>
+        <div class="assets-subtitle">Obowiązujący wzór różni się w zależności od pełnionego stanowiska</div>
+    </div>
+    <div class="group_name">
+        <h3>Stanowiska państwowe</h3></div>
+    <div class="row">
+        <div class="groups">
+            {% for other-declaration in site.other-declarations %}
+            <div class="col l3 m6 s12 asset_type">
+                <a href="{{ other-declaration.link }}" target="_blank">
+                <div class="tile">
+                    <div class="col m12 asset-type-ico">
+                        <img draggable="false" class="ico" src="./images/2017/03/icon_posel-senator.png" />
+                    </div>
+                    <div class="col m12 asset-text">
+                      {{ other-declaration.title }}
+
+                    </div>
+                    <div class="btn-to-declaration">
+                        <a href="{{ other-declaration.link }}" target="_blank">Wypełnij oświadczenie</a>
+                    </div>
+                </div>
+              </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="group_name">
+        <h3>Stanowiska samorządowe</h3></div>
+    <div class="row">
+        <div class="groups">
+            {% for local-declaration in site.local-declarations %}
+            <div class="col l3 m6 s12 asset_type">
+                <a href="{{ local-declaration.link }}" target="_blank">
+                 {% if local-declaration.more == "info" %}
+                <div class="tile tile_hover">
+                  <div class="text_hidden">
+                    {{ local-declaration.content }}
+                  </div>
+                 {% else %}
+                    <div class="tile">
+                 {% endif %}
+                    <div class="col m12 asset-type-ico">
+                        <img draggable="false" class="ico" src="./images/2017/03/icon_posel-senator.png" />
+                    </div>
+                    <div class="col m12 asset-text">
+                      {{ local-declaration.title }}
+
+                    </div>
+                    <div class="btn-to-declaration">
+                        <a href="{{ local-declaration.link }}" target="_blank">Wypełnij oświadczenie</a>
+                    </div>
+                </div>
+              </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="group_name">
+        <h3>Parlamentarzyści</h3></div>
+
+    <div class="row">
+        <div class="groups">
+            {% for parlament-declaration in site.parlament-declarations %}
+            <div class="col l3 m6 s12 asset_type">
+                <a href="{{ parlament-declaration.link }}" target="_blank">
+                <div class="tile">
+                    <div class="col m12 asset-type-ico">
+                        <img draggable="false" class="ico" src="./images/2017/03/icon_posel-senator.png" />
+                    </div>
+                    <div class="col m12 asset-text">
+                      {{ parlament-declaration.title }}
+
+                    </div>
+                    <div class="btn-to-declaration">
+                        <a href="{{ parlament-declaration.link }}" target="_blank">Wypełnij oświadczenie</a>
+                    </div>
+                </div>
+              </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% include generator.html %}

@@ -1,0 +1,51 @@
+.header_menu .brand-logo {
+    position: absolute;
+    z-index: 1;
+}
+
+nav ul a:hover {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        height: 75px;
+    }
+}
+
+.top_btn {
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 2px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.top_btn a {
+    margin-left: 0;
+}
+
+
+header .image-container {
+    background-position: center 26%;
+}
+
+@media screen and (max-width: 1024px) {
+    header .image-container {
+        float: left;
+        position: static;
+        padding-top: 56%;
+        background-size: cover;
+        margin: 40px auto 0;
+    }
+    .top-slider {
+        margin-top: 0;
+    }
+}
+
+.institutions-bottom-form img.ico {
+    height: 250px;
+}
+.l6 img.ico{
+  width: 100%;
+}

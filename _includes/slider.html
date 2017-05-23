@@ -1,0 +1,33 @@
+<div class="row slider-container">
+    <div class=" top-slider">
+        <section>
+            <div class="row" id="top-slider">
+                <div class="col m12">
+                    <ul class="application-carts-list-container tabs">
+                        <h2>Aplikacje dostępne w ramach programu</h2>
+                        <ul class="items-2 ">
+                            {% for application in site.applications %}
+                            <li class="tab vertical-border">
+                                <div class="app-tab">
+                                    {{ application.link }}
+                                    <div class="application-name-tabs">
+                                        <p>{{ application.title }}</p>
+                                    </div>
+                                    <div class="app-ico"> {{ application.icon }}<br/></div>
+                                    </a>
+                                </div>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="row slider-content">
+                <div class="col m12 carousel carousel-slider tabs-content application-carts-container">
+                    {% for application in site.applications %} {{ application.content }} {% endfor %}
+
+                </div>
+            </div>
+        </section>
+    </div>
+</div>

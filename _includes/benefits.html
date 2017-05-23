@@ -1,0 +1,16 @@
+<div class="row platform-benefits">
+    <div class="col section_title">
+        <h2>Jakie są zalety aplikacji?</h2>
+        <div class="row">
+            {% for benefit in site.benefits %}
+            <div class="benefits-container col l4 m6 s12">
+                {{ benefit.ico }}
+                <div class="title">
+                    <h3>{{ benefit.title }}</h3>
+                </div>
+                <div class="subtitle"><span>{{ benefit.content }}</span></div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+<div class="container">
+<div class="row platform-benefits">
+    <div class="col section_title">
+        <h2>Jak tworzymy aplikacje?</h2>
+        <dl>
+            <div class="row">
+              {% for about in site.abouts %}
+                <div class="benefits-container col l4 m6 s12">
+                    {{ about.ico }}
+                    <div class="title">
+                        <h3>{{ about.title }}</h3>
+                    </div>
+                    <div class="subtitle"><span>{{ about.content }}</span></div>
+                </div>
+                {% endfor %}
+            </div>
+        </dl>
+    </div>
+</div>
+</div>

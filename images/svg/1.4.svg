@@ -1,0 +1,15 @@
+
+<svg width="64px" height="51px" viewBox="134 -1 64 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon_darmowe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(135.000000, 0.000000)" stroke-linecap="round" stroke-linejoin="round">
+        <polygon id="Stroke-1" stroke="#000000" stroke-width="2" points="0 28.1290435 20.8695652 28.1290435 20.8695652 15.6073043 0 15.6073043"></polygon>
+        <path d="M16.6956522,21.8681739 L12.5217391,21.8681739" id="Stroke-3" stroke="#0090D1" stroke-width="2"></path>
+        <g id="Group-10" transform="translate(6.217391, 0.000000)" stroke-width="2">
+            <path d="M29.2608696,43.826087 L3.92,43.826087 C1.78713043,43.826087 0.0424347826,42.0344348 0.0424347826,39.842087 L0.0424347826,28.3575652" id="Stroke-4" stroke="#000000"></path>
+            <path d="M0.0424347826,15.4687304 L0.0424347826,3.9842087 C0.0424347826,1.79394783 1.78713043,0.000208695652 3.92,0.000208695652 L50.4278261,0.000208695652 C52.5586087,0.000208695652 54.3043478,1.79394783 54.3043478,3.9842087 L54.3043478,27.1306435" id="Stroke-6" stroke="#000000"></path>
+            <polyline id="Stroke-8" stroke="#0090D1" points="54.3043478 33.3913043 43.928 48 35.5217391 40.6956522"></polyline>
+        </g>
+    </g>
+</svg>
