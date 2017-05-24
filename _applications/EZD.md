@@ -2,7 +2,7 @@
 title: Elektroniczne Zarządzanie Dokumentacją
 categories: ['apps']
 link: <a href="#app-id-52">
-icon: <img class="ico" alt="" src="../images/2017/03/1.6.png" />
+icon: <img class="ico" alt="" src="./images/2017/03/1.6.png" />
 ---
 <article id="app-id-52" class="application-cart row grey">
     <div class="col l6 app_info">
@@ -17,6 +17,6 @@ icon: <img class="ico" alt="" src="../images/2017/03/1.6.png" />
         </div>
     </div>
     <div class="col l6">
-        <img draggable="false" alt="Elektroniczne Zarządzanie Dokumentacją" class="ico" src="../images/2017/03/aplikacja_ezd.png" />
+        <img draggable="false" alt="Elektroniczne Zarządzanie Dokumentacją" class="ico" src="./images/2017/03/aplikacja_ezd.png" />
     </div>
 </article>

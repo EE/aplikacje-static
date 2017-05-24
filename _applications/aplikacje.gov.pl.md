@@ -2,7 +2,7 @@
 title: Aplikacje.gov.pl
 categories: ['apps']
 link: <a href="#app-id-104">
-icon: <img class="ico" alt="" src="../images/2017/02/1.8.png" />
+icon: <img class="ico" alt="" src="./images/2017/02/1.8.png" />
 ---
 <article id="app-id-104" class="application-cart row grey">
     <div class="col l6 app_info">
@@ -19,6 +19,6 @@ icon: <img class="ico" alt="" src="../images/2017/02/1.8.png" />
         </div>
     </div>
     <div class="col l6">
-        <img draggable="false" alt="APLIKACJE.GOV.PL" class="ico" src="../images/aplikacje_gov.jpeg" />
+        <img draggable="false" alt="APLIKACJE.GOV.PL" class="ico" src="./images/aplikacje_gov.jpeg" />
     </div>
 </article>
