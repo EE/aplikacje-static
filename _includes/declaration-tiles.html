@@ -1,0 +1,32 @@
+<div class="group_name">
+    <h3>{{ include.title }}</h3>
+</div>
+
+<div class="row">
+    <div class="groups">
+        {% for declaration in include.declarations %}
+        <div class="col l3 m6 s12 asset_type">
+            <a href="{{ declaration.link }}" target="_blank">
+             {% if declaration.more == "info" %}
+            <div class="tile tile_hover">
+              <div class="text_hidden">
+                {{ declaration.content }}
+              </div>
+             {% else %}
+                <div class="tile">
+             {% endif %}
+                <div class="col m12 asset-type-ico">
+                    <img draggable="false" class="ico" src="./images/2017/03/icon_posel-senator.png" />
+                </div>
+                <div class="col m12 asset-text">
+                  {{ declaration.title }}
+                </div>
+                <div class="btn-to-declaration">
+                    <a href="{{ local-declaration.link }}" target="_blank">Wypełnij oświadczenie</a>
+                </div>
+            </div>
+          </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>

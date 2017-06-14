@@ -1,0 +1,21 @@
+<div class="row assets-info">
+  <div class="info-container">
+    {% if include.direction == "left" %}
+      <div class="col l6 m6 s12 assets-image assets-image2">
+        <img src="./images/{{ include.image }}">
+      </div>
+      <div class="col l6 m6 s12 assets-text1">
+        <div class="title">{{ include.title }}</div>
+        <div class="subtitle">{{ include.subtitle }}</div>
+      </div>
+    {% else %}
+      <div class="col l6 m6 s12 assets-text2">
+        <div class="title">{{ include.title }}</div>
+        <div class="subtitle">{{ include.subtitle }}</div>
+      </div>
+      <div class="col l6 m6 s12 assets-image assets-image2 assets-image3">
+        <img src="./images/{{ include.image }}">
+      </div>
+    {% endif %}
+  </div>
+</div>
