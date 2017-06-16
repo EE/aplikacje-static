@@ -25,7 +25,6 @@ nav ul a:hover {
     margin-left: 0;
 }
 
-
 header .image-container {
     background-position: center 26%;
 }
@@ -46,6 +45,12 @@ header .image-container {
 .institutions-bottom-form img.ico {
     height: 250px;
 }
-.l6 img.ico{
-  width: 100%;
+
+.l6 img.ico {
+    width: 100%;
+}
+
+#mc_embed_signup {
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
 }
