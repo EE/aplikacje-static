@@ -2,7 +2,7 @@
 title: Generator Oświadczeń Majątkowych
 categories: ['apps']
 link: <a href="#app-id-53">
-icon: <img class="ico" alt="" src="../images/2017/03/step_1.png" />
+icon: <img class="ico" alt="" src="../images/ico/step_1.png" />
 ---
 <article id="app-id-53" class="application-cart row grey">
     <div class="col l6 app_info">
@@ -18,6 +18,6 @@ icon: <img class="ico" alt="" src="../images/2017/03/step_1.png" />
         </div>
     </div>
     <div class="col l6">
-        <img draggable="false" alt="Męskie dłonie - w jednej smartfon, w drugiej filiżanka kawy. Na drugim planie biurko z rozłożonymi dokumentami" class="ico" src="../images/2017/03/screen_aplikacje.png" />
+        <img draggable="false" alt="Męskie dłonie - w jednej smartfon, w drugiej filiżanka kawy. Na drugim planie biurko z rozłożonymi dokumentami" class="ico" src="../images/aplikacje/screen_aplikacje.png" />
     </div>
 </article>
