@@ -8,8 +8,7 @@ icon: <img class="ico" alt="" src="../images/2017/03/1.6.png" />
     <div class="col l6 app_info">
         <h3>Elektroniczne Zarządzanie Dokumentacją</h3>
         <div class="info">
-            <p>Kolejną aplikacją przygotowaną z myślą o urzędnikach administracji publicznej w ramach platformy aplikacje.gov.pl będzie EZD, czyli Elektroniczne Zarządzanie Dokumentacją. Programy, z których korzystają urzędnicy
-                w swojej codziennej pracy będą dostępne w bezpieczny sposób przez internet.
+            <p>Najważniejszą aplikacją przygotowaną z myślą o urzędnikach administracji publicznej w ramach platformy aplikacje.gov.pl będzie aplikacja EZD, czyli profesjonalne narzędzie usprawniające elektroniczne zarządzanie dokumentacją. Zgodne z obowiązującymi przepisami, instalowane z poziomu przeglądarki internetowej, dostępne zarówno na komputerze, jak i na tablecie oraz w telefonie.
               </p>
         </div>
         <div class="app_link_slider">
