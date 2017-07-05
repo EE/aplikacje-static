@@ -1,83 +1,11 @@
 <footer>
-    <div class="footer_base">
-        <div class="container">
-            <div class="row">
-                <div class="col l3 m6 s12 footer_topic github_footer">
-                    <h2>Repozytorium projektu</h2>
-                    <div class="underline_footer"></div>
-                    <div class="github_logo_footer">
-                        <a href="https://github.com/Ministerstwo-Cyfryzacji" target="_blank">
-                            <img alt="GitHub" src="../images/logos/github_logo.png">
-                        </a>
-                    </div>
-                </div>
-                <div class="col l3 m6 s12 footer_topic realization_footer">
-                    <h2>Organizator</h2>
-                    <div class="underline_footer"></div>
-                    <div class="mc_logo_footer">
-                        <a href="https://mc.gov.pl/" target="_blank">
-
-                            <img alt="Ministerstwo Cyfryzacji" src="../images/logos/MC_logo.png">
-                        </a>
-                    </div>
-                    <div class="nask_logo_footer">
-                        <a href="https://www.nask.pl/" target="_blank">
-                            <img alt="NASK" src="../images/logos/NASK_logo.png">
-                        </a>
-                    </div>
-                    <div class="footer_topic realization_footer BRfooter">
-                        <h2>Realizator projektu aplikacje.gov.pl B+R</h2>
-                        <div class="underline_footer"></div>
-                        <div class="laboratorium_ee_logo_footer">
-                            <a href="https://laboratorium.ee/" target="_blank">
-                                <img alt="Laboratorium EE" src="../images/logos/EE_logo.png">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col l3 m6 s12 footer_topic">
-                    <div class="download_section">
-                        <h2>Pliki do pobrania</h2>
-                        <div class="underline_footer">
-                            <div class="footer_subtitle">
-                                <div class="download_link"><a href="../assets/Prezentacja-o-identyfikacji-wizualnej.pdf">Identyfikacja wizualna<br/></a></div>
-                                <div class="download_link"><a href="../assets/elektroniczne_zarzadzanie_dokumentacja_rp_9_wrzesnia_2016_r.pdf">O projekcie B+R<br/></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col l3 m6 s12 footer_topic">
-                    Newsletter
-                    <div class="underline_footer"></div>
-
-                    <!-- Begin MailChimp Signup Form -->
-                    <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-                    <div id="mc_embed_signup">
-                        <form action="https://www.us14.list-manage.com/subscribe/post?u=e0938df785e923f1cef40e1be&amp;id=8d6be93e61" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                            <div id="mc_embed_signup_scroll" style="margin-top:10px;">
-                                <div class="mc-field-group">
-                                    <label for="mce-EMAIL" style="margin-top:20px; color: #d0d0d0; font-size:15px;">Adres e-mail  <span class="asterisk">*</span>
-                                    </label>
-                                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                                </div>
-                                <div id="mce-responses" class="clear">
-                                    <div class="response" id="mce-error-response" style="display:none"></div>
-                                    <div class="response" id="mce-success-response" style="display:none"></div>
-                                </div>
-                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e0938df785e923f1cef40e1be_8d6be93e61" tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" style="background-color:#46c3cf;     border: none;
-                                    border-radius: 3px;
-                                  }" value="Zapisz się" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                            </div>
-                        </form>
-                    </div>
-                    <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-                    <script type='text/javascript' src='./js/subscribe.js'></script>
-                    <!--End mc_embed_signup-->
-                    <script type='text/javascript' src='./js/ready.js'></script>
-                </div>
-            </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      {% for page in site.pages %}
+        {% if page.category == 'footer-section' %}
+          {{ page.content }}
+        {% endif %}
+      {% endfor %}
     </div>
+  </div>
 </footer>

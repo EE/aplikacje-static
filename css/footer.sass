@@ -1,0 +1,92 @@
+---
+
+---
+
+$footer-bg-color: #323232
+$white: #fff
+$blue-link: #028ED4
+$blue-button: #0078B0
+
+footer
+  background-color: $footer-bg-color
+  color: $white
+  margin-top: 30px
+  padding-top: 30px
+  padding-bottom: 30px
+
+  .footer-section
+    margin-bottom: 30px
+
+    h2
+      font-size: 1rem
+      line-height: 1.4
+
+      &::after
+        content: ""
+        display: block
+        width: 80px
+        border-top: 2px solid $white
+        padding-top: 10px
+        margin-top: 20px
+
+    span
+      display: block
+
+      &.regular
+        a
+          display: inline-block
+          margin-bottom: 15px
+          color: $blue-link
+
+      &.logo
+        &:not(:last-child)
+          margin-right: 20px
+
+    img
+      margin-top: 10px
+      margin-bottom: 20px
+      max-height: 80px
+
+  #mc_embed_signup
+    form
+      label
+        display: inline-block
+        margin-bottom: 10px
+        font-size: 1rem
+
+      input
+        background-color: $footer-bg-color
+        font-size: 0.9rem
+
+        &[type="email"]
+          background-color: $white
+          border: none
+          color: $footer-bg-color
+          font-size: 1rem
+          padding: 20px 10px
+          height: 1em
+          box-sizing: border-box
+          margin-bottom: 0
+
+          &.mce_inline_error
+            margin-bottom: 10px
+
+        &[type="submit"]
+          background-color: $blue-button
+          border: none
+          padding: 10px 15px
+          width: 100%
+          text-transform: uppercase
+          height: 40px
+
+      .asterisk
+        display: inline-block
+        color: #e85c41
+        font-size: 150%
+        position: relative
+        top: 3px
+        padding-left: 5px
+
+      #mce-responses
+        margin-top: 10px
+        margin-bottom: 15px

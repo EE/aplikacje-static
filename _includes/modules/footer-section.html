@@ -1,0 +1,14 @@
+<div class="col l3 m6 s12 {{ page.section-offset-class }} footer-section">
+	<h2>{{ page.title }}</h2>
+	{% for item in page.items %}
+		<span class="{{ item.type}}">
+			<a href="{{ item.url }}">
+				{% if item.type == 'logo' %}
+					<img src="{{ item.img-src }}" alt="{{ item.img-alt-text }}">
+				{% elsif item.type == 'regular' %}
+					{{ item.text }}
+				{% endif %}
+			</a>
+		</span>
+	{% endfor %}
+</div>
